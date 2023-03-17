@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search repo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="form">
+  <label class="form-label">
+    Поиск репозитория
+    <input type="text" id="text">
+  </label>
+  <button type="submit">Поиск</button>
+  <span class="validation" id="validation"></span>
+</form>
+
+<div class="card-wrapper" id="card-wrapper"></div>
+
+<template id="card">
+  <div class="card">
+    <div class="card-author-wrapper">
+      <img class="card-photo" src="https://nankeluxuryhomesprescott.com/wp-content/uploads/2019/03/PlaceholderImageMale.jpg" alt="Фото автора." width="200" height="200">
+      <p class="card-author">Автор:<br><span class="card-author-name">Heidvald</span></p>
+    </div>
+    <p class="card-repo">
+      Имя репозитория:
+      <a class="card-link" href="https://github.com/HeidvaldHalvardson/1351381-gllacy-32" target="_blank">1351381-gllacy-32</a>
+    </p>
+    <span class="card-language-title">Основной язык: <span class="card-language">HTML</span></span>
+  </div>
+</template>
+
+<script src="index.js"></script>
+</body>
+</html>

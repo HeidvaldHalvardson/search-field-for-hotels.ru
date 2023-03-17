@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+
+#form {
+  width: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 0 1px 7px 0 #000000;
+}
+
+.card-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 1px 7px 0 #000000;
+}
+
+.card {
+  width: 465px;
+  background-color: #5d5d5d;
+  padding: 20px;
+  color: #e5e5e5;
+  border-radius: 5px;
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-author-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-wrapper--off {
+  display: none;
+}
+
+.card-photo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-author {
+  text-align: right;
+  margin: 0;
+}
+
+.card-author-name {
+  display: block;
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-repo {
+  margin: 0;
+}
+
+.card-link {
+  color: inherit;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-language {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.validation {
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  color: #ff0000;
+}
